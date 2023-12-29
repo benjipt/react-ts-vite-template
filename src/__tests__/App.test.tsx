@@ -2,7 +2,7 @@
 import { describe, it, expect } from 'vitest';
 import { render } from '@testing-library/react';
 
-import App from '@/App'
+import App from '@/App';
 
 describe('App', async () => {
   it('Renders without crashing', async () => {
@@ -11,6 +11,5 @@ describe('App', async () => {
 
     // Expectations
     expect(app).toBeTruthy();
-
   });
 });
