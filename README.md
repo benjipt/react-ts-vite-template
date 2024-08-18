@@ -11,13 +11,16 @@ This template provides a robust starting point for building React applications u
 
 ## Usage
 
-Click "Use this template" on the GitHub repository page to start a new project with this structure and configurations.
+- Click "Use this template" on the GitHub repository page to start a new project with this structure and configurations.
+- Update `name` in package.json to the name of your new project.
 
 ## Configuration Notes
 
 - **Vitest & React Testing Library**: Ready-to-use testing environment.
 - **Prettier & Husky**: Pre-configured for code formatting and style consistency.
 - **ESLint**: Enhances the development experience, but not configured for lint-staged to allow for customization.
+- **Yarn**: Uses Yarn Modern 4.4.0 as default package manager (migrated from npm). 
+  - _PnP is not currently set up for this project. To set up Yarn PnP, read this [guide](https://yarnpkg.com/features/pnp)._
 
 ## TODO
 
